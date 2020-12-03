@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_about"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_marginTop="100dp"
+    tools:context="fun.ssss.smsrelayer.view.activity.AboutActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/icon"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="短信助手"
+        android:textColor="@color/colorDarkText"
+        android:textSize="22sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textIsSelectable="true"
+        android:text="中國遠徵提供技术支持"
+        android:textColor="@color/colorLightText"
+        android:autoLink="all"
+        android:textSize="18sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="联系开发者"
+        android:textColor="@color/colorLightText"
+        android:textSize="16sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textIsSelectable="true"
+        android:text="📫 邮箱: admin@ssss.fun\n🌐 网站: https://s.ssss.fun"
+        android:textColor="@color/colorLightText"
+        android:autoLink="all"
+        android:textSize="15sp"/>
+
+</LinearLayout>
